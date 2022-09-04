@@ -4,6 +4,11 @@ module Requester
   end
 
   def ask_question(question)
+  #   Category: History Difficulty: medium
+  #  Question: What was the capital of South Vietnam before the Vietnam War?
+  
+  puts "Category: #{question[:category]}"
+     
     # show category and difficulty from question
     # show the question
     # show each one of the options
